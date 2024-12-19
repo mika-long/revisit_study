@@ -1,0 +1,121 @@
+{
+    "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Visual Decoding Operators",
+        "version": "pilot",
+        "authors": [
+            "Sheng Long"
+        ],
+        "date": "2024-12-18",
+        "description": "A study designed to elicit responses from participants",
+        "organizations": [
+            "Northwestern University"
+        ]
+    },
+    "uiConfig": {
+        "contactEmail": "contact@revisit.dev",
+        "helpTextPath": "vis-decode/assets/help.md",
+        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "sidebar": true
+    },
+    "components": {
+        "introduction": {
+            "type": "markdown",
+            "path": "vis-decode/assets/introduction.md",
+            "response": [
+                {
+                "id": "prolificId",
+                "prompt": "Please enter your Prolific ID (without any spaces):",
+                "required": true,
+                "location": "belowStimulus",
+                "type": "shortText",
+                "placeholder": "Prolific ID",
+                "paramCapture": "PROLIFIC_ID"
+                }
+            ]
+        },
+        "consent": {
+            "type": "markdown",
+            "path": "vis-decode/assets/consent.md",
+            "nextButtonText": "Agree",
+            "response": [
+              {
+                "id": "accept",
+                "prompt": "Do you consent to the study and wish to continue?",
+                "required": true,
+                "location": "belowStimulus",
+                "type": "radio",
+                "options": [
+                  "Decline",
+                  "Accept"
+                ]
+              }
+            ]
+        },
+        "survey": {
+            "type": "markdown",
+            "path": "vis-decode/assets/survey.md",
+            "response": [
+            {
+                "id": "age", 
+                "prompt": "What is your age?", 
+                "required": true,
+                "location": "belowStimulus",
+                "type": "shortText",
+                "placeholder": "Enter your age here."
+              },
+            {
+                "id": "gender",
+                "prompt": "What is your gender?",
+                "required": true,
+                "location": "belowStimulus",
+                "type": "dropdown",
+                "placeholder": "Please choose your gender",
+                "options": ["Male", "Female", "Binary", "Non-binary", "Other"]
+            }, 
+            {
+                "id": "strategy", 
+                "prompt": "What strategy did you use to decode the visualizations?",
+                "required": false, 
+                "location": "belowStimulus",
+                "type": "longText",
+                "placeholder": "Enter your answer here."
+            }, 
+              {
+                "id": "surveyExperience",
+                "prompt": "Did you experience any problems with our tool?",
+                "required": false,
+                "location": "belowStimulus",
+                "type": "longText",
+                "placeholder": "Enter your answer here."
+              },
+              {
+                "id": "surveyRenderIssues",
+                "prompt": "Did anything not render or display properly?",
+                "required": false,
+                "location": "belowStimulus",
+                "type": "longText",
+                "placeholder": "Enter your answer here"
+              },
+              {
+                "id": "surveyOtherIssues",
+                "prompt": "Any other issues or anything you would like to tell us?",
+                "required": false,
+                "location": "belowStimulus",
+                "type": "longText",
+                "placeholder": "Enter your answer here"
+              }
+            ]
+        }
+    },
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "introduction",
+            "consent",
+            "survey"
+        ]
+    }
+}

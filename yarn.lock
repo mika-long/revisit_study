@@ -680,6 +680,13 @@
     wrap-ansi "^8.1.0"
     wrap-ansi-cjs "npm:wrap-ansi@^7.0.0"
 
+"@mangos/debug@0.0.9-rc5":
+  version "0.0.9-rc5"
+  resolved "https://registry.yarnpkg.com/@mangos/debug/-/debug-0.0.9-rc5.tgz#96ce2c1cccd5de415872b3d2752cce4e67b12828"
+  integrity sha512-DXWbdk7bHoP4ZO7ZwoeHi0h/wWwnQalltFbf7NhzUd1aaauTn2oCfOA/f5W4sQOHjguIVPpa1NuoEAddaw8xSQ==
+  dependencies:
+    ms "3.0.0-canary.1"
+
 "@mantine/core@^5.10.5":
   version "5.10.5"
   resolved "https://registry.yarnpkg.com/@mantine/core/-/core-5.10.5.tgz#071e14dcf8b94a36d0243f1f4b30305ac0074afd"
@@ -3838,6 +3845,13 @@ levn@^0.4.1:
     prelude-ls "^1.2.1"
     type-check "~0.4.0"
 
+lib-r-math.js@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/lib-r-math.js/-/lib-r-math.js-2.0.2.tgz#80844362b6d9f7cb9743c265b080ccf272598b87"
+  integrity sha512-IpCXYJbvqcXRfO5NmnVKRdMgRoXoTH4oAUaiN8PFuKw4dzFYW2OZ5jAtLVO1qPGxOpOhYpCU82HrK+iXP0wLtw==
+  dependencies:
+    "@mangos/debug" "0.0.9-rc5"
+
 lie@3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/lie/-/lie-3.1.1.tgz#9a436b2cc7746ca59de7a41fa469b3efb76bd87e"
@@ -4317,6 +4331,11 @@ ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+
+ms@3.0.0-canary.1:
+  version "3.0.0-canary.1"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-3.0.0-canary.1.tgz#c7b34fbce381492fd0b345d1cf56e14d67b77b80"
+  integrity sha512-kh8ARjh8rMN7Du2igDRO9QJnqCb2xYTJxyQYK7vJJS4TvLLmsbyhiKpSW+t+y26gyOyMd0riphX0GeWKU3ky5g==
 
 ms@^2.1.1:
   version "2.1.3"
