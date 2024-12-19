@@ -1,3 +1,0 @@
-# Help 
-
-To ask for help, please contact the original authors at ... 
