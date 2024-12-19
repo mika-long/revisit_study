@@ -22,6 +22,22 @@
         "autoDownloadStudy": false,
         "sidebar": true
     },
+    "baseComponents": {
+        "barChart": {
+            "type": "website", 
+            "response": [
+                {
+                    "id": "barChart", 
+                    "prompt": "Your selected answer:", 
+                    "required": true,
+                    "location": "belowStimulus", 
+                    "type": "iframe"
+                }
+            ], 
+            "path": "basic-questionnaire-study/assets/bar-chart.html", 
+            "instructionLocation": "aboveStimulus"
+        }
+    },
     "components": {
         "introduction": {
             "type": "markdown",
@@ -49,13 +65,31 @@
                     "options": ["Red", "Blue", "My favorite color is not shown here."]
                 }
             ]
+        }, 
+        "bar-chart-1": {
+            "baseComponent": "barChart", 
+            "description": "A trial for the user to click the largest bar", 
+            "instruction": "Click on the largest bar", 
+            "parameters": {
+                "barData": [1.2, 1.2, 1.2, 1.3, 0.82, 0.4, 0.3]
+            }
+        }, 
+        "bar-chart-2": {
+            "baseComponent": "barChart", 
+            "description": "A trial for the user to click the smallest bar", 
+            "instruction": "Click on the smallest bar", 
+            "parameters": {
+                "barData": [1.2, 1.2, 1.2, 1.3, 0.82, 0.4, 0.3]
+            }
         }
     },
     "sequence": {
         "order": "fixed",
         "components": [
             "introduction",
-            "first-question-set" 
+            "first-question-set", 
+            "bar-chart-1",
+            "bar-chart-2" 
         ]
     }
 }
