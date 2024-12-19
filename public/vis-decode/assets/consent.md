@@ -46,7 +46,7 @@ If you agree to be in this research study, here’s what will happen:
     - You will have unlimited time for each judgment, with brief breaks provided throughout the trial. 
     - You will complete 40 – 60 trials in total across all tasks. 
     - The study will automatically record your responses and how long you take to make each judgment. No personally identifying information will be collected. 
-    - You will receive a base payment of $6 for complete the study, plus the opportunity to earn additional bonues of up to $0.25 per precise response (up to $10 to $15 in total bonues) 
+    - You will receive a base payment of **$5** for completing the study, plus the opportunity to earn additional bonues of up to $0.25 per accurate response (up to $10 to $15 in total bonues) 
 
 ## Will being in this study help me in any way?
 We cannot promise any benefits to you or others from your taking part in this research. However, possible benefits include increased awareness of techniques for reading statistical properties from charts through participating in these visual perception tasks. The main benefit of this research will be to the broader scientific community. Your participation will help us: 
@@ -85,7 +85,8 @@ We have several measures in place to protect your information and maintain confi
 
 ## Who will have access to the information collected during this research study?
 Efforts will be made to limit the use and disclosure of your personal information, including research study records, to people who have a need to review this information. We cannot promise complete secrecy. 
-There are reasons why information about you may be used or seen by other people beyond the research team during or after this study.   Examples include:
+
+There are reasons why information about you may be used or seen by other people beyond the research team during or after this study. Examples include:
 - University officials, government officials, study funders, auditors, and the Institutional Review Board may need access to the study information to make sure the study is done in a safe and appropriate manner.  
 - Collaborating researchers at other institutions who are involved with this study. [include this bullet point ONLY if applicable to your study]
 
@@ -98,7 +99,7 @@ De-identified data from this study may be shared with the research community, wi
 The results of this study could be shared in articles and presentations, but will not include any information that identifies you unless you give permission for use of information that identifies you in articles and presentations. 
 
 ## Will I be paid or given anything for taking part in this study?
-You will receive base payment of $6.5 for your participation in this study. There will be an additional bonus of $0.25 per correct response, with “correct” defined as within an acceptable margin of error from the true value, resulting in a maximum potential bonus of $10-$15. The base payment will bre released through Prolific within 24 hours of study completion, and the performance bonuses will be calculated and distributed within 48 hours of study completion. All payments are handled through Prolific’s secure payment system.    
+You will receive base payment of **$5** for your participation in this study. There will be an additional bonus of $0.25 per correct response, with “correct” defined as within an acceptable margin of error from the true value, resulting in a maximum potential bonus of $10-$15. The base payment will bre released through Prolific within 24 hours of study completion, and the performance bonuses will be calculated and distributed within 48 hours of study completion. All payments are handled through Prolific’s secure payment system.    
 Participants who withdraw before completing all trials will not receive any payment. 
 
 ## Who can I talk to?

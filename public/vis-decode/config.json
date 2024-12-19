@@ -108,6 +108,34 @@
                 "placeholder": "Enter your answer here"
               }
             ]
+        }, 
+        "trial1": {
+          "instruction": "**Question:** This is a sample question (trial 1)",
+          "type": "website",
+          "path": "vis-decode/assets/index.html",
+          "nextButtonLocation": "sidebar", 
+          "response": []
+        }, 
+        "trial2": {
+          "instruction": "**Question:** This is a sample question (trial 2)",
+          "type": "website",
+          "path": "vis-decode/assets/index.html",
+          "nextButtonLocation": "sidebar", 
+          "response": []
+        }, 
+        "trial3": {
+          "instruction": "**Question:** This is a sample quesiton (Trial 3) ",
+          "type": "website",
+          "path": "vis-decode/assets/index.html",
+          "nextButtonLocation": "sidebar", 
+          "response": []
+        }, 
+        "trial4": {
+          "instruction": "**Question:** This is a sample question (Trial 4)",
+          "type": "website",
+          "path": "vis-decode/assets/index.html",
+          "nextButtonLocation": "sidebar", 
+          "response": []
         }
     },
     "sequence": {
@@ -115,6 +143,15 @@
         "components": [
             "introduction",
             "consent",
+            {
+              "components": [
+                "trial1", 
+                "trial2", 
+                "trial3", 
+                "trial4"
+              ], 
+              "order": "random"
+            }, 
             "survey"
         ]
     }
